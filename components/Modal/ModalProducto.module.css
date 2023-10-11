@@ -76,6 +76,7 @@
 
     .divImagen {
       height: 200px;
+      opacity: 50%;
     }
     .divDescripcion {
       width: 200px;
@@ -94,37 +95,39 @@
           top: -90px;
           left: 120px;
           border-radius: 50%;
+          background-color: transparent;
         }
       }
 
       .h1 {
-        color: var(--black);
-        color: var(--blue600);
         color: var(--white);
+        color: var(--amber400);
+        color: var(--blue600);
+        color: var(--black);
         font-size: 24px;
         text-align: center;
         margin-top: -80px;
-        background-color: #fbbe247d;
-        background-color: #ffffff6d;
-        background-color: #0000009d;
         padding: 5px;
       }
       .p {
         font-size: 40px;
         margin-top: 0px;
-        color: var(--black);
-        background-color: #ffffff9d;
+        color: var(--blue600);
         padding: 5px;
       }
 
       .divCantidades {
         .botonMenos, .botonMas {
-          background-color: var(--white);
+          background-color: transparent;
           border-radius: 50%;
           height: 35px;
           position: relative;
           top: 15px
         }
+      }
+
+      .botonPedido {
+        width: 150px;
       }
     }
   }
