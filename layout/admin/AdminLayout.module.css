@@ -7,3 +7,16 @@
         margin-left: 125px;
     }
 }
+
+@media (max-width: 480px) {
+    .divAside {
+        display: flex;
+        flex-direction: column;
+        padding-right: 60px;
+
+        .logo {
+            position: relative;
+            left: 90px;
+        }
+    }
+}
