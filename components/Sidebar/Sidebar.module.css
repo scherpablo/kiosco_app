@@ -1,0 +1,40 @@
+.containerNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .logoImg {
+    position: relative;
+    left: 10px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 1140px) {
+      .nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+  }
+  @media (max-width: 768px) {
+    .nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 480px) {
+    .nav {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+
+

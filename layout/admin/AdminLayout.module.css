@@ -1,0 +1,9 @@
+.divAside {
+    display: flex;
+    gap: 50px;
+
+    .logo {
+        margin-top: 12px;
+        margin-left: 125px;
+    }
+}

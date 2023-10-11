@@ -1,9 +1,30 @@
+:root {
+  --fuentePrincipal: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  --stone200: #e7e5e4;
+  --amber400: #fbbf24;
+  --neutral400: #a3a3a3;
+  --black: #000;
+  --white: #fff;
+  --red400: #f87171;
+  --red600: #dc2626;
+  --green400: #4ade80;
+  --green600: #16a34a;
+  --blue400: #60a5fa;;
+  --blue600: #2563eb;;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--fuentePrincipal);
+  min-width: 420px;
+}
+
+h1, h2, h3, p {
+  color: var(--black)
 }
 
 a {
@@ -20,7 +41,9 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    /* color: white; */
+    color: var(--black);
+    background-color: var(--black);
+    background-color: var(--white);
   }
 }
