@@ -23,7 +23,7 @@ const Orden = ({ orden }) => {
     } catch (error) {
       toast.error("Hubo un Error", {
         position: "bottom-right",
-        autoClose: 1000,
+        autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
