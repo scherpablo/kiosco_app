@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import useKiosco from "../../hooks/useKiosco";
-import styles from "./Modal.module.css";
+import styles from "./ModalProducto.module.css";
 import { formatearDinero } from "../../helpers/precio";
 
 const Modal = () => {
